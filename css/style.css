@@ -1,0 +1,23 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+#time {
+  margin-bottom: 0;
+}
+
+.hour,
+.min,
+.sec {
+  color: #87CEFA;
+  font-size: 30px;
+}
+
+.btn {
+  font-size: 11px;
+  transition: color ease-in 0.3s;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  color: #209277;
+}
